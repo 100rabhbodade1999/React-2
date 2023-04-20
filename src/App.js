@@ -1,23 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from './component/button';
+import { ReactBenifits } from './component/Reactbenifits';
+import { ReactLogo } from './component/ReactLogo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+     {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <h3>Benifits of using react ...</h3>
+          <ol type='1'>
+           <li>Component-based architecture</li> 
+           <li>Virtual DOM for efficient updates</li> 
+           <li>Rich ecosystem and community</li>
+           <li>Cross-platform development</li>
+           <li>Strong community support</li>
+            <button>Get Started ..</button>
+            
+          </ol>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       
+      </header> */}
+      <Button/>
     </div>
   );
 }
