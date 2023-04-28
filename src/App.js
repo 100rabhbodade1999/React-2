@@ -1,8 +1,8 @@
-// import ProfileCard from './components/ProfileCard';
 import './App.css';
 // import ProdCard from './components/ProfileCard';
 
-import Counter from "./components/Counter app/IncDecBtn";
+
+import NumberGuess from './components/organisms/NumberGuess/NumberGuess';
 
 export function App() {
 
@@ -20,7 +20,7 @@ export function App() {
 
 
 
-        <Counter/>
+        <NumberGuess/>
       
      </div>
   );

@@ -1,0 +1,16 @@
+.btn{
+    margin: 20px;
+    background-color: rgb(126, 92, 50);
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.inp{
+    height: 20px;
+}
