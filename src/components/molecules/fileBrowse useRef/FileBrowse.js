@@ -3,7 +3,7 @@ import './FileBrowse.css';
 
 function FileBrowse() {
 
-  let inputRef = useRef('');
+  let inputRef = useRef(null);
 
   function handleClick(){
     inputRef.current.click();
@@ -14,6 +14,7 @@ function FileBrowse() {
     <div className='Browse'>
       <input
       type='file'
+      ref={inputRef}
       /> <br/><br/>
       <button onClick={handleClick}>Pick the file</button>
     </div>
