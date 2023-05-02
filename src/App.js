@@ -1,5 +1,6 @@
 import './App.css';
-import FileBrowse from './components/molecules/fileBrowse useRef/FileBrowse';
+import Input from './components/Input';
+
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
      return (
         <div className='App'>
 
-       <FileBrowse/>
+      <Input/>
       
         </div>
      )
