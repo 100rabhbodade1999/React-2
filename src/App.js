@@ -1,5 +1,5 @@
 import './App.css';
-import Input from './components/Input';
+import RndmImg from './components/sections/fetchImg/FetchImg';
 
 
 
@@ -8,7 +8,7 @@ function App() {
      return (
         <div className='App'>
 
-      <Input/>
+         <RndmImg/>
       
         </div>
      )
