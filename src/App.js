@@ -1,5 +1,5 @@
-import './App.css';
-import RndmImg from './components/sections/fetchImg/FetchImg';
+import React from 'react';
+import Scrollbar from './components/molecules/scrollbar/scrollbar';
 
 
 
@@ -8,7 +8,7 @@ function App() {
      return (
         <div className='App'>
 
-         <RndmImg/>
+         <Scrollbar/>
       
         </div>
      )

@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    border:none;
+    margin: 30px;
+    height: 270px;
+    width: 62%;
+    padding: 2rem ;
+    overflow: hidden;
+    overflow: scroll;
+    background-color: black;
+}
+
+/* .container::-webkit-scrollbar{
+    display: none;
+} */
+
+.card{
+    margin-right: 2rem;
+    background-color: grey;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.imag{
+    border-radius: 70px;
+}
