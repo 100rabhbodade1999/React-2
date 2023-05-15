@@ -1,0 +1,33 @@
+.container{
+    height: 100vh;
+    background-color: rgb(99, 45, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    border: 2px solid wheat;
+    background-color:rgb(248, 189, 189);
+    color: rgb(212, 102, 61);
+    border-radius: 20px;
+    width: 30vw;
+    
+}
+
+.child h2{
+    color: black;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(28, 17, 45, 0.648);
+    margin: 5px;
+    
+}
+
+.list{
+    color: antiquewhite;
+}
+
